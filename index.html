@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+
+    <!-- font Awesome icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- css code for star rating -->
+    <style>
+      .mySlides {
+        display: none;
+      }
+      .checked {
+        color: orange;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #2874f0;
+        min-width: 100px;
+        box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+        margin: 10px 2px;
+        color: white;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      #table-1 {
+        border: 0;
+        width: 100%;
+        background-color: #2874f0;
+      }
+
+      #table-2 {
+        width: 100%;
+        height: 2rem;
+
+        background-color: white;
+      }
+      #div1 {
+        width: 100%;
+        height: 50vh;
+      }
+      #div1 img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .header-item {
+        width: 12.5%;
+        height: 2%;
+      }
+
+      #airp {
+        width: 75%;
+      }
+
+      #bag {
+        width: 75%;
+      }
+
+      #kit {
+        width: 75%;
+      }
+
+      #pho {
+        width: 75%;
+      }
+
+      #teddy {
+        width: 75%;
+      }
+
+      .vl {
+        border-left: 6px solid green;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 0;
+      }
+      .footer{
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body bgcolor="#F1F3F6">
+    <table id="table-1">
+      <tr>
+        <td><img src="logo/Flipkart-logo.png" alt="" align="right" /></td>
+        <td>
+          <input
+            type="text"
+            placeholder="Search for products, branch and more"
+            style="width: 70%; height: 1.5rem; font-size: 18px"
+          />
+          <!-- <button style="width:15%; height:1.5rem; font-size:18px;">Search</button> -->
+          <input
+            type="button"
+            value="Search"
+            style="width: 15%; height: 1.8rem; font-size: 20px"
+          />
+        </td>
+
+        <th>
+          <font color="white" align="center">Login &signup</font>
+        </th>
+        <th>
+          <font color="white" aligh="center">More</font>
+        </th>
+        <th align="center"><img src="logo/cart-logo.png " alt="" /></th>
+      </tr>
+    </table>
+    <br />
+    <table id="table-2">
+      <tr>
+        <th id="header-item">
+          <div class="dropdown">
+            <span>Electronics</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span>TVs & Appliances</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+
+        <th id="header-item">
+          <div class="dropdown">
+            <span> Men</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span> Women</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span> Baby & Kides</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span> Home & Furniture</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span> sports,Book & More</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+        <th id="header-item">
+          <div class="dropdown">
+            <span> Ofer Zone</span>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </table>
+
+    <div class="w3-content w3-section" id="div1">
+      <!-- <img class="mySlides" src="slides1.webp"> -->
+      <!-- <img class="mySlides" src="Banner/slides1.jpg" /> -->
+      <img
+        class="mySlides" src="https://www.pngkey.com/png/detail/255-2559557_ecommerce-design-and-development-services-e-commerce-clipart.png"
+        alt="Ecommerce Design And Development Services - E Commerce Clipart Png@pngkey.com"
+      />
+      <img
+        class="mySlides"
+        src="https://www.seekpng.com/png/detail/247-2475454_ecommerce-banner-e-commerce-banner-png.png"
+        alt="Ecommerce-banner - E Commerce Banner Png@seekpng.com"
+      />
+      <img class="mySlides" src="Banner/blog.jpg" />
+      <img
+        class="mySlides"
+        src="https://www.pngkey.com/png/detail/247-2475118_ecommerce-e-commerce-banner-png.png"
+        alt="Ecommerce - E Commerce Banner Png@pngkey.com"
+      />
+    </div>
+
+    <br />
+
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <td colspan="5">
+          <h2>School Bage</h2>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <a href="bigDetails.html"></a><img src="bag-img/bag.png" id="bag" />
+        </th>
+        <th><img src="bag-img/bag-2.png" id="bag" /></th>
+        <th><img src="bag-img/bag-3.png" id="bag" /></th>
+        <th><img src="bag-img/bag-4.png" id="bag" /></th>
+        <th><img src="bag-img/bag-5.png" id="bag" /></th>
+      </tr>
+      <!-- code of rating button -->
+
+      <tr>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+      </tr>
+      <!-- code of price -->
+
+      <tr>
+        <th>Price: <font color="green">599/-</font></th>
+        <th>Price: <font color="green">699/-</font></th>
+        <th>Price: <font color="green">799/-</font></th>
+        <th>Price: <font color="green">899/-</font></th>
+        <th>Price: <font color="green">999/-</font></th>
+      </tr>
+       
+      <!-- Show Details button code -->
+
+      <tr>
+        <th>
+          <a href="Details1.html"> <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          /></a>
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+      </tr>
+    </table>
+    <br />
+
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <td colspan="5">
+          <h2>Eirphones</h2>
+        </td>
+      </tr>
+      <tr>
+        <th><img src="airphone-img/airp-6.jpg" id="airp" /></th>
+        <th><img src="airphone-img/airp2.jpg" id="airp" /></th>
+        <th><img src="airphone-img/airp-3.jpg" id="airp" /></th>
+        <th><img src="airphone-img/airp-4.jpg" id="airp" /></th>
+        <th><img src="airphone-img/airp-5.jpg" id="airp" /></th>
+      </tr>
+      <!-- code of rating button -->
+
+      <tr>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+      </tr>
+      <!-- code of price -->
+
+      <tr>
+        <th>Price: <font color="green">599/-</font></th>
+        <th>Price: <font color="green">699/-</font></th>
+        <th>Price: <font color="green">799/-</font></th>
+        <th>Price: <font color="green">899/-</font></th>
+        <th>Price: <font color="green">999/-</font></th>
+      </tr>
+      <!-- Show Details button code -->
+
+      <tr>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+      </tr>
+    </table>
+    <br />
+
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <td colspan="5">
+          <h2>kitchen</h2>
+        </td>
+      </tr>
+      <tr>
+        <th><img src="kitchen/home-1.png" id="kit" /></th>
+        <th><img src="kitchen/home-2.png" id="kit" /></th>
+        <th><img src="kitchen/home-3.png" id="kit" /></th>
+        <th><img src="kitchen/home-4.png" id="kit" /></th>
+        <th><img src="kitchen/home-5.png" id="kit" /></th>
+      </tr>
+      <!-- code of rating button -->
+
+      <tr>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+      </tr>
+      <!-- code of price -->
+
+      <tr>
+        <th>Price: <font color="green">599/-</font></th>
+        <th>Price: <font color="green">699/-</font></th>
+        <th>Price: <font color="green">799/-</font></th>
+        <th>Price: <font color="green">899/-</font></th>
+        <th>Price: <font color="green">999/-</font></th>
+      </tr>
+      <!-- Show Details button code -->
+
+      <tr>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+      </tr>
+    </table>
+    <br />
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <td colspan="5">
+          <h2>Phone</h2>
+        </td>
+      </tr>
+      <tr>
+        <th><img src="phone-img/mob-1.png" id="pho" /></th>
+        <th><img src="phone-img/mob-2.png" id="pho" /></th>
+        <th><img src="phone-img/mob-3.png" id="pho" /></th>
+        <th><img src="phone-img/mob-4.png" id="pho" /></th>
+        <th><img src="phone-img/mob-5.png" id="pho" /></th>
+      </tr>
+      <!-- code of rating button -->
+
+      <tr>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+      </tr>
+      <!-- code of price -->
+
+      <tr>
+        <th>Price: <font color="green">599/-</font></th>
+        <th>Price: <font color="green">699/-</font></th>
+        <th>Price: <font color="green">799/-</font></th>
+        <th>Price: <font color="green">899/-</font></th>
+        <th>Price: <font color="green">999/-</font></th>
+      </tr>
+      <!-- Show Details button code -->
+
+      <tr>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+      </tr>
+    </table>
+    <br />
+    <table border="0" width="100%" bgcolor="white">
+      <tr>
+        <td colspan="5">
+          <h2>Teddy Bear</h2>
+        </td>
+      </tr>
+      <tr>
+        <th><img src="teddy/teddy-1.jpg" id="teddy" /></th>
+        <th><img src="teddy/teddy-2.png" id="teddy" /></th>
+        <th><img src="teddy/teddy-3.png" id="teddy" /></th>
+        <th><img src="teddy/teddy-4.png" id="teddy" /></th>
+        <th><img src="teddy/teddy-5.png" id="teddy" /></th>
+      </tr>
+      <!-- code of rating button -->
+      <tr>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+        <th>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </th>
+      </tr>
+      <!-- code of price -->
+      <tr>
+        <th>Price: <font color="green">599/-</font></th>
+        <th>Price: <font color="green">699/-</font></th>
+        <th>Price: <font color="green">799/-</font></th>
+        <th>Price: <font color="green">899/-</font></th>
+        <th>Price: <font color="green">999/-</font></th>
+      </tr>
+      <!-- Show Details button code -->
+      <tr>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+        <th>
+          <input
+            type="button"
+            value="Show Details"
+            style="
+              width: 50%;
+              height: 1.5rem;
+              background-color: blue;
+              color: white;
+              border-radius: 10px;
+            "
+          />
+        </th>
+      </tr>
+    </table>
+    <br>
+  
+    <table border="0" width="100%" height="20px" class="footer">
+      <tr>
+        <td bgcolor="black" style="width: 20%">
+          <font color="white"><b></b> ABOUT</font>
+        </td>
+        <td bgcolor="black" style="width: 20%">
+          <font color="white"><b></b> HELP</font>
+        </td>
+        <td bgcolor="black" style="width: 20%">
+          <font color="white"><b>CONSUMAR POLICY </b></font>
+        </td>
+        <td bgcolor="black" style="width: 20%">
+          <font color="white"><b>SOCIAL</b></font>
+        </td>
+        <td bgcolor="black" style="width: 20%">
+          <font color="white"><b>Search</b></font>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <ul>
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Flipkart Stories</li>
+            <li>Press</li>
+            <li>Flipkart Wholesale</li>
+            <li>Corporate</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Payments</li>
+            <li>Shipping</li>
+            <li>Cancellation & Returns</li>
+            <li>FAQ</li>
+            <li>Report Infringement</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Return Policy</li>
+            <li>Terms of Use</li>
+            <li>Security</li>
+            <li>Privacy</li>
+            <li>Sitemap</li>
+            <li>Grievance Redressal</li>
+            <li>EPR Comliance</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>YouTube</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+             <input type="text"placeholder="Search" style="width: 60%;height:20px">
+            <input type="button" value="Search" style="width:30%; background-color: #2874f0; font-size:medium" >  
+             
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+
+    <script>
+      var myIndex = 0;
+      carouse1();
+      function carouse1() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carouse1, 3000);
+      }
+    </script>
+  </body>
+</html>
